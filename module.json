@@ -3,14 +3,15 @@
   "name": "identity-core",
   "display_name": "Identity",
   "description": "Provider-neutral authentication policy, identifier normalization, and security events.",
-  "version": "1.5.7",
+  "version": "1.6.0",
   "category": "foundation",
   "provider": "Liberu\\Foundation\\Identity\\IdentityServiceProvider",
   "requires": {
     "php": "^8.5",
     "laravel": "^13.0",
     "packages": {
-      "liberusoftware/module-manager": "^1.0"
+      "liberusoftware/module-manager": "^1.0",
+      "liberusoftware/users-roles": "^1.0"
     }
   },
   "suggests": {
